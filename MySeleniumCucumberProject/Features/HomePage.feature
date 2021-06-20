@@ -2,7 +2,7 @@ Feature: Login
 
  Background: User-Login (These are the common staps before every scenario)
 	Given User launch chrome browser and opens URL , clicks on login link 
-	When User Enters the username as "basavaraj5396@gmail.com" and password as "basu9611" 
+	When User Enters the username as "ENRER_YOUR_NAUKRI_ACCOUNT_USERNAME" and password as "ENRER_YOUR_NAUKRI_ACCOUNT_PASSWORD" 
 	And User click on login button 
 	Then User lands on homepage 
 
@@ -14,7 +14,7 @@ Scenario Outline: Naukri-profile update
 	 Then User Close the browser
 	   Examples:
 	         |   newname | newmobileNO |
-	         |   Basavaraj Halli | 9148379066 |
+	         |   UPDATE_NAME | UPDATE_MOBILENO |
 	         
 Scenario: Naukri-profile update
 	 When  User clicks on EDIT PROFILE under MY NAUKRI Link
