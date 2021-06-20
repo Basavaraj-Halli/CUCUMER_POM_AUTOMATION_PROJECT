@@ -99,7 +99,7 @@ public class HomePage extends BasePageObjects {
 
 	public boolean clickOnUpdateResume() throws InterruptedException {
 		uploadResumeLink
-				.sendKeys("C:\\Users\\HP\\Desktop\\Basavaraj Halli_QA-Automation_1.1yr Exp_Immidiately Available.pdf");
+				.sendKeys("ENTER_YOUR_RESUME_LOCATION");
 		Thread.sleep(3000);
 		/*
 		 * boolean flag =
