@@ -9,4 +9,4 @@ Scenario Outline: User-Login with valid Credentials
 	 Then User Close the browser
 	   Examples:
 	         |   email | password |
-	         |   basavaraj5396@gmail.com | basu9611 |
+	         |   ENTER_YOUR_NAUKRI_ACCOUNT_USERNAME | ENTER_YOUR_NAUKRI_ACCOUNT_PASSWORD |
