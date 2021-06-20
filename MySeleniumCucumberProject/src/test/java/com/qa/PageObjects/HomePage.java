@@ -117,12 +117,5 @@ public class HomePage extends BasePageObjects {
 		editpencil.click();
 		Thread.sleep(3000);
 	}
-
-	public UtilComman getUtilComn() {
-		return utilComn;
-	}
-
-	public void setUtilComn(UtilComman utilComn) {
-		this.utilComn = utilComn;
-	}
+	
 }
